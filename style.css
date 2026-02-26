@@ -1,0 +1,66 @@
+/* 1. Fondo general limpio como un periódico */
+body {
+  background-color: #f4f4f4; 
+  color: #333;
+  font-family: 'Helvetica', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Cabecera estilo "Correo del Sur" (Pero en Azul Marino) */
+header {
+  background-color: #000080; /* Tu azul marino */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #4cc9f0; /* La línea brillante de Sirio */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* 3. Contenedor principal para que no se desparrame el texto */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave profesional */
+}
+
+/* 4. Estilo para los títulos de las noticias (Secciones) */
+h2 {
+  color: #000080;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+/* 5. El texto de tu motivación */
+p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* 6. Las listas de tus talentos */
+ul {
+  background: #f9f9f9;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border-left: 5px solid #000080;
+}
+/* Estilo para la imagen de Sirio */
+.k-style-img {
+  display: block;
+  margin: 20px auto; /* Esto la centra */
+  width: 80%;        /* Para que no sea más grande que la pantalla */
+  max-width: 300px;  /* Pero que tampoco sea gigante en PC */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* Una sombra elegante */
+}
